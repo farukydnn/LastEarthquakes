@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F9</color>
+    <color name="colorPrimaryDark">#1972b9</color>
+    <color name="textColor">#212121</color>
+    <color name="listviewBackground">#ffffff</color>
+    <color name="listviewItemNormal">#E0E0E0</color>
+    <color name="earthquakeSeverityLow">#4CAF50</color>
+    <color name="earthquakeSeverityMedium">#FFAB00</color>
+    <color name="earthquakeSeverityHigh">#f44336</color>
+</resources>

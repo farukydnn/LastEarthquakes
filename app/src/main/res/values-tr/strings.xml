@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Son Depremler</string>
+    <string name="button_try_again_download">Tekrar Dene</string>
+    <string name="list_damaged_building">Hasarlı Binalar: %1$s</string>
+    <string name="list_data_download_failed">Bir şeyler ters gitti. Lütfen tekrar deneyin.</string>
+    <string name="list_felt_severity">Hissedilen Şiddet: %1$s</string>
+    <string name="list_life_loss">Kayıp: %1$s</string>
+    <string name="no_connection">Lütfen internet bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="no_intent_application">Bu işlemi gerçekleştirecek uygulama bulunamadı!</string>
+    <string name="ic_action_sort">Sırala</string>
+    <string name="sort_large_to_small">Büyükten Küçüğe</string>
+    <string name="sort_small_to_large">Küçükten Büyüğe</string>
+    <string name="sort_newer_to_older">Yeniden Eskiye</string>
+    <string name="sort_older_to_newer">Eskiden Yeniye</string>
+</resources>

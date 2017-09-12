@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.farukydnn.lastearthquakes.ui.FadedListView
+        android:id="@+id/custom_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listviewBackground"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/listview_divider_height"
+        android:fadingEdgeLength="@dimen/listview_fade_length"
+        android:listSelector="@android:color/transparent"
+        android:padding="@dimen/listview_padding"
+        android:requiresFadingEdge="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" />
+
+    <ProgressBar
+        android:id="@+id/progressbar_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/list_download_failed_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/list_error_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/list_failed_text_margin_bottom"
+            android:layout_marginLeft="@dimen/connection_error_message_margin_side"
+            android:layout_marginRight="@dimen/connection_error_message_margin_side"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/button_try_again_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_try_again_download" />
+    </LinearLayout>
+
+</FrameLayout>

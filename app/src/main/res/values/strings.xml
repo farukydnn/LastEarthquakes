@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Last Earthquakes</string>
+    <string name="no_connection">Please check your connection and try again.</string>
+    <string name="list_data_download_failed">Something went wrong. Please try again.</string>
+    <string name="button_try_again_download">Try Again</string>
+    <string name="list_felt_severity">Severity Felt: %1$s</string>
+    <string name="list_life_loss">Lost: %1$s</string>
+    <string name="list_damaged_building">Damaged Buildings: %1$s</string>
+    <string name="no_intent_application">No application found to perform this operation!</string>
+    <string name="ic_action_sort">Sort</string>
+    <string name="sort_large_to_small">Large to Small</string>
+    <string name="sort_small_to_large">Small to Large</string>
+    <string name="sort_newer_to_older">Newer to Older</string>
+    <string name="sort_older_to_newer">Older to Newer</string>
+    <string name="footer_last_earthquakes">Last Earthquakes</string>
+    <string name="footer_important_earthquakes">Important Earthquakes</string>
+</resources>

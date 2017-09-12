@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sort_large_to_small"
+        android:title="@string/sort_large_to_small" />
+
+    <item
+        android:id="@+id/sort_small_to_large"
+        android:title="@string/sort_small_to_large" />
+
+    <item
+        android:id="@+id/sort_newer_to_older"
+        android:title="@string/sort_newer_to_older" />
+
+    <item
+        android:id="@+id/sort_older_to_newer"
+        android:title="@string/sort_older_to_newer" />
+
+</menu>

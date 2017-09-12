@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listview_textview_margin">8dp</dimen>
+    <dimen name="listview_textview_top_margin">6dp</dimen>
+    <dimen name="listview_item_radius">4dp</dimen>
+    <dimen name="listview_padding">8dp</dimen>
+    <dimen name="listview_divider_height">8dp</dimen>
+    <dimen name="listview_fade_length">4dp</dimen>
+    <dimen name="listview_location_text_size">18sp</dimen>
+    <dimen name="list_failed_text_margin_bottom">10dp</dimen>
+    <dimen name="connection_error_message_margin_side">100dp</dimen>
+</resources>
